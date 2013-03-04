@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageLib", "ImageLib\ImageLib.vcproj", "{827608E3-E930-4B4E-A5A8-24EFDC6EAC9E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Panorama", "project2.vcproj", "{968112E8-4636-4FAC-BBFA-220228A4605E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{827608E3-E930-4B4E-A5A8-24EFDC6EAC9E} = {827608E3-E930-4B4E-A5A8-24EFDC6EAC9E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{827608E3-E930-4B4E-A5A8-24EFDC6EAC9E}.Debug|Win32.ActiveCfg = Release|Win32
+		{827608E3-E930-4B4E-A5A8-24EFDC6EAC9E}.Debug|Win32.Build.0 = Release|Win32
+		{827608E3-E930-4B4E-A5A8-24EFDC6EAC9E}.Release|Win32.ActiveCfg = Release|Win32
+		{827608E3-E930-4B4E-A5A8-24EFDC6EAC9E}.Release|Win32.Build.0 = Release|Win32
+		{968112E8-4636-4FAC-BBFA-220228A4605E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{968112E8-4636-4FAC-BBFA-220228A4605E}.Debug|Win32.Build.0 = Debug|Win32
+		{968112E8-4636-4FAC-BBFA-220228A4605E}.Release|Win32.ActiveCfg = Release|Win32
+		{968112E8-4636-4FAC-BBFA-220228A4605E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
