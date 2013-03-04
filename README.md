@@ -10,22 +10,28 @@ Panorama说明
 Panorama安装说明
 ---------------
 
--  依赖
+1.  依赖
 说明：Mac 系统中可先安装Homebrew库管理软件（需要安装Ruby环境，Mac中默认已安装),通过命令：
-	'brew update'
-	'brew install ***'
-*Fast Light Toolkit(fltk)
-*gtk+(or XQuartz-2.7.4) 实际依赖的库文件为X11
 
--  gcc 编译文件
+		brew update
+		brew install ***'
+		
+	*  Fast Light Toolkit(fltk)
+	*  gtk+(or XQuartz-2.7.4) 实际依赖的库文件为X11
+	
+	
+2.  gcc 编译文件
 
-makefile 命令:
-	'make'
+	makefile 命令:
+	
+		  make
 
 Panorama 使用说明
 ------------------
 
+
 usage:
+
 	./Panorama sphrWarp input.tga output.tga f [k1 k2]
 	./Panorama alignPair input1.f input2.f matchfile nRANSAC RANSACthresh [sift]
 	./Panorama blendPairs pairlist.txt outimg.tga blendWidth
