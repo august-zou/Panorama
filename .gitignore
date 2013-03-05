@@ -12,6 +12,10 @@
 *.la
 *.a
 
-#igorne Debug Release
-/Debug
-/Release
+#ignore Debug Release
+Debug/
+Releasae/
+
+#system files
+.DS_Store
+.DS_Store?
